@@ -1,0 +1,132 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    background: #3b5998;
+    width: 100%;
+
+}
+
+.logo{
+    background-color: #fafafa;
+    background: #aaa;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 3em ;
+}
+
+.div_menu ul{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    padding-right: 7em;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 20px;
+}
+
+.div_menu li:hover{
+    background: #111;
+    color: #ddd;
+    transition: 0.5s;
+
+}
+
+.parent_div{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding-right: 3em;
+}
+
+.contact_main{
+    /* background: #cdd; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.contact_div h3,
+.get_intouch h3{
+    text-transform: capitalize;
+    color: #3b5998;
+    padding-bottom: 1em;
+}
+
+.contact_div p{
+    color: #aaa;
+    padding-left: 2em;
+}
+
+.get_intouch{
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.call{
+    color: #ff0000;
+}
+.fac{
+    color: #3b5998;
+}
+.para{
+    padding-left: 2em;
+}
+.contact_foot{
+    text-align: center;
+    padding-top: 4em;
+}
+
+@media (max-width:768px) {
+
+    .logo{
+        margin-left: 0 ;
+        height: 40px;
+        width: 40px;
+    }
+
+    .div_menu ul{
+        gap: 1em;
+        padding-right: 1em;
+        font-size: 10px;
+        padding-top: 1.2em;
+    }
+
+    .parent_div{
+        display: block;
+        justify-content: 0;
+        background: #fff;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .div_menu{
+        justify-content: space-evenly;
+        padding-top: 1em;
+    
+    }
+
+    .contact_div p{
+        color: #aaa;
+        padding-left: 0;
+        padding-right: 2em;
+        font-size: 15px;
+    }
+    .contact_foot{
+        padding-top: 0.1em;
+        padding-bottom: 1em;
+    }
+    
+}
+
+

@@ -1,0 +1,141 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer_section{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3em;
+    background: #acc;
+    width: 100%;
+    height: 300px;
+}
+
+.blog_footer h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 1em;
+    color: #3377;
+}
+
+.blog_footer ul{
+    list-style: none;
+    text-transform: capitalize;
+    color: #3377;
+}
+
+.facebook{
+    color: skyblue;
+    width: 100%;
+    height: 50px;
+    background: #3377;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.gaps{
+    display: flex;
+    gap: 1em;
+}
+
+.news_letter h3{
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 1em;
+    color: #3377;
+}
+
+.news_letter p{
+    font-size: 20px;
+    color: #3377;
+}
+
+.news_letter input{
+    width: 50%;
+    height: 40px;
+    padding-left: 1em;
+    border: 1px solid #3377;
+    outline: none;
+    font-size: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.button_news{
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    background: #3377;
+    position: relative;
+    bottom: 0.1em;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+@media (max-width: 768px) {
+    .footer_section{
+        height: 200px;
+        background: #000;
+        padding-left: 1em;
+        gap: 1em;
+    }
+
+    .blog_footer h3{
+        font-size: 10px;
+        font-weight: bolder;
+        color: #ddd;
+    }
+
+    .blog_footer ul{
+        font-size: 8px;
+        justify-content: space-evenly;
+        color: #fff;
+    }
+
+    .news_letter p{
+        font-size: 10px;
+        color: #ddd;
+        width: 90%;
+    }
+
+    .news_letter h3{
+        font-size: 10px;
+        color: #FFF;
+        text-align: center;
+    }
+
+    .facebook{
+        height: 20px;
+    }
+
+    .gaps{
+        gap: 0.1em;
+    }
+
+    form{
+        margin-top: 1em;
+    }
+
+    .news_letter input{
+        width: 70%;
+        height: 30px;
+        font-size: 13px;
+    
+    }
+
+    .button_news{
+        width: 20%;
+        height: 30px;
+        bottom: 0.01em;
+    
+    }
+    
+}

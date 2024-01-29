@@ -1,0 +1,40 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sub_div{
+    display: flex;
+    justify-content: space-evenly;
+    background: #acc;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.sidebar_div{
+    width: 30%;
+}
+.sidebar_div h3{
+    text-align: center;
+    color: #3377;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 1em;
+}
+
+/* writing the media query responsiveness */
+
+@media (max-width: 768px) {
+    .sub_div{
+        width: 100%;
+    }
+
+    .sidebar_div{
+        width: 50%;
+        font-size: 10px;
+
+    }
+}

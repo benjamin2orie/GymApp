@@ -1,0 +1,99 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.conga_image,
+.conga_image2,
+.conga_image3{
+    display: flex;
+    justify-content: space-evenly;
+    background: #ccc;
+    padding-top: 8em;
+}
+
+.yoga_gym2,
+.yoga_gym3,
+.yoga_gym{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.div_m h3{
+    color: #adadad;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-align: center;
+}
+.div_m{
+    padding-top: 5em;
+}
+
+.div_m p{
+    background: #f4f4f4;
+    width: 120px;
+    text-align: center;
+    height: 30px;
+    color: #adadad;
+    margin-top: 1em;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* styling the footer section */
+
+.footer_home{
+    background: #f4f4f4;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0.1em;
+    cursor: pointer;
+    color: #adadad;
+    font-size: 80px;
+}
+
+/* styling the media query responsivenss */
+
+@media (max-width: 768px) {
+
+    .yoga_gym2,
+.yoga_gym3,
+.yoga_gym{
+    height: 80px;
+}
+
+.div_m{
+    padding-top: 0;
+}
+
+.conga_image{
+    padding-top: 3em;
+    border: 1px solid #aaa;
+}
+
+.conga_image2{
+    padding-top: 3em;
+    border: 1px solid #aaa;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.conga_image3{
+    padding-top: 3em;
+    border: 1px solid #aaa;
+}
+
+.footer_home{
+    padding-top: 1em;
+    font-size: 40px;
+}
+
+    
+}

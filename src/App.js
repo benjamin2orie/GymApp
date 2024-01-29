@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './Components/Layout/Navbar';
+// import Jubim from './Components/Layout/Jubim';
+import { Routes, Route} from 'react-router-dom';
+import Home from './Components/Layout/PagesMenu/Home';
+import Services from './Components/Layout/PagesMenu/Services';
+import Contact from './Components/Layout/PagesMenu/Contact';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Routes>
+            <Route path='*' element={<>
+            <Navbar/>
+            {/* <Jubim/> */}
+            </>}/>
+            <Route path='/home' element={<Home/>}/>
+            <Route path='/services' element={<Services/>}/>
+            <Route path='/contact' element={<Contact/>}/>
+           
+        </Routes>
     </div>
   );
 }
