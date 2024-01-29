@@ -29,7 +29,7 @@ const Subsectionjubim =() => {
             <div className={ styles.center_div}>
                 <h5>getting started takes less than a minutes</h5>
                 <form>
-                    <input placeholder='enter your email here to get started' className={ styles.input}/>
+                    <input placeholder='enter your email here' className={ styles.input}/>
                     <button className={ styles.sub_button}>give it a try</button>
                 </form>
             </div>

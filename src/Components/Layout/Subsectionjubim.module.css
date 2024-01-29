@@ -98,7 +98,7 @@ form{
         width: 30%;
     }
     .sub_p_image h3{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .center_div h5{
@@ -121,7 +121,7 @@ form{
     .sub_button{
         width: 20%;
         height: 41px;
-        bottom: 0.01em;
+        bottom: 0.5em;
         color: #cdd;
         font-size: 15px;
     }

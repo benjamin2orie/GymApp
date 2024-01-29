@@ -58,7 +58,7 @@
     display: block;
     padding-top: 0.1em;
     width: 100%;
-    height: 500px;
+    height: 440px;
   }
 
   .container{
@@ -73,14 +73,20 @@
     text-align: center;
     width: 100%;
     font-size: 15px;
+    color: #3b5889;
     
+  }
+  .container p{
+    color: #3b5889;
+    width: 100%;
   }
 
   .container .p_button{
-    color: #adadad;
+    color: #aaa;
     margin-bottom: 2em;
     margin-top: 2em;
-    margin-left: 3em;
+    margin-left: 5em;
+    background: #3b5889;
     text-align: center;
     padding-top: 0.8em;
   }
